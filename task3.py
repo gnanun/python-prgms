@@ -1,4 +1,4 @@
-print("Contact book")
+print("=====Contact book=====\n")
 contacts = {}
 while True:
     print("\n1. Add a new contact\n2. Search for a contact\n3. Exit the contact book")
@@ -19,4 +19,5 @@ while True:
         break
     else:
         print("Unknown command. Please try again.")
+
         
