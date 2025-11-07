@@ -1,4 +1,3 @@
-# Task 4: Automate File Renaming
 import os  
 
 def rename_files_in_directory(directory, old_extension, new_extension):
@@ -27,3 +26,4 @@ if __name__ == "__main__":
     old_ext = input("Enter the old file extension (e.g., .txt): ").strip()
     new_ext = input("Enter the new file extension (e.g., .md): ").strip()
     rename_files_in_directory(dir_path, old_ext, new_ext)
+
